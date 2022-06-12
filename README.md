@@ -7,7 +7,7 @@ This repository contains code to train a Machine Learning model to Segment CXRs 
 The Segmentation Model uses a U-NET architecture, where we use Double 2D Convolutions and MaxPool to reduce image resolution while increasing filters.
 Although Batch Normalization was not introduced in the paper, we decided to add it since it increased our Validation Accuracy to 96%.
 
-![image](https://drive.google.com/file/d/14blx-yvLAVoH4Bk-nhUXmlg4B1u-OiNb/view?usp=sharing "Prediction 01")
+![image](/Segmentation/Results/MCUCXR_0387_1.png "Prediction 01")
 ![alt text](https://drive.google.com/file/d/14lu6jUMoiOjpcwBqpqip_3wWrVp5EGMA/view?usp=sharing "Prediction 01")
 
 
