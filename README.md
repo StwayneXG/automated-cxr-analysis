@@ -8,7 +8,8 @@ The Segmentation Model uses a U-NET architecture, where we use Double 2D Convolu
 Although Batch Normalization was not introduced in the paper, we decided to add it since it increased our Validation Accuracy to 96%.
 
 ![image](/Segmentation/Results/MCUCXR_0387_1.png "Prediction 01")
-![alt text](https://drive.google.com/file/d/14lu6jUMoiOjpcwBqpqip_3wWrVp5EGMA/view?usp=sharing "Prediction 01")
+![image](/Segmentation/Results/MCUCXR_0399_1.png "Prediction 02")
+![image](/Segmentation/Data_Segmentation.png "CSV_Segmentation")
 
 
 ## CXR Classification
@@ -22,7 +23,11 @@ For Classification, we tried may different models, to name a few:
 * Stacked Transfer Learning Models (MobileNetV2 + DenseNet169)
 
 After trying out the first model, we figured the training data wasnt enough to train the model. So, we opted for transfer learning. In transfer learning, the pretrained models were trained on a very different dataset (ImageNet). So, that didnot predict with a well enough accuracy.
+
 We had to use images of resolution 224x224 at the beginning due to constraints put by Google CoLab. After not getting well enough results, we tried to change the Hyperparameters, increasing the batch size, increasing the resolution and epochs. These only seemed to increase the training time with little to no change in the accuracy. Higher number of epochs started overfitting the training data and increasing the training accuracy upto 70%.
+
+![image](/Classification/Confusion_Matrix.png "Confusion Matrix")
+![image](/Classification/Data_Classification.png "CSV_Classification")
 
 ### Further Work
 
