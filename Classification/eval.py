@@ -31,9 +31,6 @@ if __name__ == "__main__":
     data_path = f"{project_path}/For Project/Classification"
     classification_path = f"{project_path}/Classification"
 
-    """ Directory for storing files """
-    create_dir(f"{classification_path}/Results")
-
     """ Loading model """
     with CustomObjectScope({'sensitivity': sensitivity, 'specificity': specificity}):
         model = tf.keras.models.load_model(f"{classification_path}/Archive/Classification Files [Stacked Model (MobileNetV2 + DenseNet 169)]/model.h5")
