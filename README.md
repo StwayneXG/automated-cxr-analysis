@@ -1,6 +1,6 @@
 # CXR-Segmentation-Classification
 
-This repository contains code to train a Machine Learning model to Segment CXRs for Lungs and Classify the Image to having 6 Diseases.
+This repository contains code to train a Machine Learning model to Segment CXRs for Lungs and Classify the Image for Diseases Diagnosis.
 
 ## CXR Segmentation
 
