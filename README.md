@@ -55,11 +55,14 @@ For the classification task, we achieved an **accuracy of 0.39** on the test set
 <!-- ![Classification Results]() -->
 Input Image            | True Label           | Predicted Label 
 :-----:|:-------------------------:|:-------------------------:
-<img src="https://iili.io/HNcsecX.jpg" width="512" height="512">  |  **Atelectasis**  |  **Atelectasis**
+<img src="https://iili.io/HNcsecX.jpg" width="256" height="256">  |  **Atelectasis**  |  **Atelectasis**
+<img src="https://iili.io/HN1bDj1.md.jpg" width="256" height="256">  |  **Edema**  |  **Cardiomegaly**
+<img src="https://iili.io/HN1pHx9.jpg" width="256" height="256">  |  **No Finding**  |  **No Finding**
+
 
 Here is the confusion matrix for the classification task:
 
-![Confusion Matrix](https://iili.io/HNcimGI.png)
+![Confusion Matrix](https://iili.io/HN1ZsYN.png)
 
 ## Further Work
 
