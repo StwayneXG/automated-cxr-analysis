@@ -13,7 +13,14 @@ Close to a billion chest x-rays (CXRs) are taken around the globe every year for
 
 ## Dataset
 
-The dataset was provided by BioMedical Image and Signal Analysis (BIOMISA) Research Group. The classification dataset consists of 2003 frontal-view CXR images. The dataset is divided into 2 parts:
+The dataset we used was provided by the [BioMedical Image and Signal Analysis (BIOMISA)](https://biomisa.org/) Research Group.
+
+The segmentation dataset consists of 838 frontal-view CXR images. The dataset is divided into 2 parts:
+
+* Training set: 762 images.
+* Testing set: 76 images.
+
+The classification dataset consists of 2003 frontal-view CXR images. The dataset is divided into 2 parts:
 
 * Training set: 1,503 images.
 * Testing set: 500 images.
